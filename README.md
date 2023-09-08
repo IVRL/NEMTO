@@ -4,4 +4,4 @@ Dongqing Wang, Tong Zhang, Sabine Süsstrunk
 
 [Project website](https://ivrl.github.io/NEMTO/)
 
-![Figure Abstract](/static/images/teaser-new.pdf)
+![Figure Abstract](/static/images/teaser.png)
