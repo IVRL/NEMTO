@@ -52,13 +52,13 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered contenteditable">
-            <h1 class="title is-1 publication-title">NEMTO: <span style="color: red">N</span>eural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects</h1>
+            <h1 class="title is-1 publication-title">NEMTO: <span style="color: rgb(129, 10, 10)">N</span>eural <span style="color: rgb(129, 10, 10)">E</span>nvironment <span style="color: rgb(129, 10, 10)">M</span>atting for Novel View and Relighting Synthesis of <span style="color: rgb(129, 10, 10)">T</span>ransparent <span style="color: rgb(129, 10, 10)">O</span>bjects</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://dongqing-wang.com" target="_blank">Dongqing Wang, </a></span>
                 <span class="author-block">
-                  <a href="https://people.epfl.ch/tong.zhang?lang=en" target="_blank">Tong Zhang, </a></span>
+                  <a href="https://people.epfl.ch/tong.zhang" target="_blank">Tong Zhang, </a></span>
                   <span class="author-block">
                     <a href="https://people.epfl.ch/sabine.susstrunk" target="_blank">Sabine Süsstrunk</a>
                   </span>
@@ -96,15 +96,15 @@
                   </span>
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/IVRL/NEMTO" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (coming soom)</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
@@ -165,7 +165,7 @@
     <div class="columns is-centered">
       <div class="column is-full-width">
 
-        <h3 class="title is-3">Method</h2>
+        <h3 class="title is-3">Method</h3>
           <div class="content has-text-justified">
             <p>
               Overview of our model architecture. 
@@ -177,7 +177,7 @@
 
         <br/>
 
-        <h3 class="title is-3">Novel View Syntehsis Comparison</h2>
+        <h3 class="title is-3">Novel View Syntehsis Comparison</h3>
 
           <div class="content has-text-justified">
             <p>
@@ -190,29 +190,35 @@
   
           <br/>
 
-        <h3 class="title is-3">Ablation</h2>
+        <h3 class="title is-3">Real world experiments</h3>
 
-          <div class="content has-text-justified">
-            <p>
-              Ablation studies on different loss terms of our method.
-            </p>
+          <!-- Visual Effects. -->
+          <div class="column">
+            <div class="content">
+              <h4 class="title is-3">Novel View Syntehsis </h4>
+              <p>
+                We demonstrate the effectiveness of our method on novel view synthesis for real-world transparent objects.
+              </p>
+              <img src="static/images/nv.png" alt="novel view"/>
+            </div>
           </div>
-          <div class="content has-text-centered">
-            <img src="static/images/ablation-loss.png" alt="ablation"/>
-          </div>
-  
-          <br/>
+          <!--/ Visual Effects. -->
 
-        <h3 class="title is-3">Real World Experiments</h2>
+          <!-- Matting. -->
+          <div class="column">
+            <h4 class="title is-3">Relighting</h4>
+            <div class="columns is-centered">
+              <div class="column content">
+                <p>
+                  With NEMTO, we can relight captured transparent objects with unseen environment maps.
+                </p>
+                <img src="static/images/rl.png" alt="relight"/>
+              </div>
 
-          <div class="content has-text-justified">
-            <p>
-              Experiment on real-world captured data to showcase the robustness of our method.
-            </p>
+            </div>
           </div>
-          <div class="content has-text-centered">
-            <img src="static/images/rw-cat.png" alt="ablation"/>
-          </div>
+        </div>
+        <!--/ Matting. -->
       </div>
     </div>
 
