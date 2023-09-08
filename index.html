@@ -56,11 +56,11 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://dongqing-wang.com" target="_blank">Dongqing Wang</a></span>
+                <a href="https://dongqing-wang.com" target="_blank">Dongqing Wang, </a></span>
                 <span class="author-block">
-                  <a href="https://people.epfl.ch/tong.zhang?lang=en" target="_blank">Tong Zhang</a></span>
+                  <a href="https://people.epfl.ch/tong.zhang?lang=en" target="_blank">Tong Zhang, </a></span>
                   <span class="author-block">
-                    <a href="https://people.epfl.ch/sabine.susstrunk" target="_blank">Sabine Süsstrunkr</a>
+                    <a href="https://people.epfl.ch/sabine.susstrunk" target="_blank">Sabine Süsstrunk</a>
                   </span>
                   </div>
 
@@ -125,21 +125,21 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/teaser.png" alt="teaser image"/>
+        <img src="static/images/teaser.png" alt="teaser image" class="center"/>
         <h2 class="subtitle has-text-centered">
-          Given as input multi-view images captured under natural illumination, NEMTO is capable of high-quality novel view synthesis and relighting through optimizing an end-to-end neural representation for a transparent object. NEMTO disentangles geometry and illumination-dependent appearance, which previous neural rendering methods, such as PhySG, cannot.
+          NEMTO is capable of high-quality novel view synthesis and relighting through optimizing an end-to-end neural representation for a transparent object. 
         </h2>
       </div>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser  -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -166,14 +166,14 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/modelarch.png" alt="model arch"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Overview of NEMTO framework
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/novelview.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
@@ -200,62 +200,75 @@
 
 
 
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Method</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Overview of our model architecture. 
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="static/images/modelarch.png" alt="model arch"/>
+        </div>
+
+        <br/>
+        <!--/ Interpolating. -->
+
+        <h3 class="title is-3">Novel View Syntehsis Comparison</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              Comparsion with baseline methods on novel view synthesis.
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="static/images/novelview.png" alt="novel view"/>
+          </div>
+  
+          <br/>
+
+
+
+
+
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+
+ 
+  </div>
+</section>
+
+
+
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container"> -->
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <!-- <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <div class="publication-video">
+          <div class="publication-video"> -->
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
 </section> -->
-<!-- End video carousel -->
-
-
+<!-- End youtube video -->
 
 
 
@@ -299,11 +312,12 @@
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+          <h3> Acknowledgements</h3>
+          <p>This work was supported in part by the Swiss National Science Foundation via the Sinergia grant CRSII5-180359.
+          <br>
+          This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+          <br> 
+          This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
         </div>
