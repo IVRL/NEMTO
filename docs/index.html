@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects">
+  <meta property="og:title" content="NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects"/>
+  <meta property="og:description" content="NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects"/>
+  <meta property="og:url" content="https://ivrl.github.io/NEMTO/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/teaser.png" />
+  <meta property="og:image:width" content="1554"/>
+  <meta property="og:image:height" content="686"/>
+
+
+  <meta name="twitter:title" content="NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects">
+  <meta name="twitter:description" content="NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/teaser.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Neural Rendering, Transparent Object.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>NEMTO</title>
+  <link rel="icon" href="static/images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered contenteditable">
+            <h1 class="title is-1 publication-title">
+              <span style="color: rgb(11, 109, 179)">NEMTO</span>: <span style="color: rgb(11, 109, 179)">N</span>eural <span style="color: rgb(11, 109, 179)">E</span>nvironment <span style="color: rgb(11, 109, 179)">M</span>atting for Novel View and Relighting Synthesis of <span style="color: rgb(11, 109, 179)">T</span>ransparent <span style="color: rgb(11, 109, 179)">O</span>bjects 
+            </h1>
+              <div class="is-size-6 publication-authors">
+                <span class="author-block"> ICCV 2023; ICCV23 TRICKY workshop <b style='color:red;'>Spotlight</b>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <!-- Paper authors -->
+                <span class="author-block"> <a href="https://dongqing-wang.com" target="_blank">Dongqing Wang, </a></span>
+                <span class="author-block"> <a href="https://people.epfl.ch/tong.zhang" target="_blank">Tong Zhang, </a></span>
+                <span class="author-block"> <a href="https://people.epfl.ch/sabine.susstrunk" target="_blank">Sabine Süsstrunk</a></span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">School of Computer and Communication Sciences, EPFL, Switzerland </span>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+  
+                  <span class="link-block">
+                    <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_NEMTO_Neural_Environment_Matting_for_Novel_View_and_Relighting_Synthesis_ICCV_2023_paper.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span></a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/IVRL/NEMTO" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Github</span></a>
+                  </span>
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2303.11963" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span></a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/teaser.png" alt="teaser image" class="center"/>
+        <h2 class="subtitle has-text-centered">
+          NEMTO is capable of high-quality novel view synthesis and relighting through optimizing an end-to-end neural representation for a transparent object. 
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End teaser  -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose NEMTO, the first end-to-end neural rendering pipeline to model 3D transparent objects with complex geometry and unknown indices of refraction. Commonly used appearance modeling such as the Disney BSDF model cannot accurately address this challenging problem due to the complex light paths bending through refractions and the strong dependency of surface appearance on illumination. With 2D images of the transparent object as input, our method is capable of high-quality novel view and relighting synthesis. We leverage implicit Signed Distance Functions (SDF) to model the object geometry and propose a refraction-aware ray bending network to model the effects of light refraction within the object. Our ray bending network is more tolerant to geometric inaccuracies than traditional physically-based methods for rendering transparent objects. We provide extensive evaluations on both synthetic and real-world datasets to demonstrate our high-quality synthesis and the applicability of our method. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+
+        <h3 class="title is-3">Method</h3>
+          <div class="content has-text-justified">
+            <p>
+              Overview of our model architecture. 
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="static/images/modelarch.png" alt="model arch"/>
+          </div>
+
+        <br/>
+
+        <h3 class="title is-3">Novel View Synthesis Comparison</h3>
+
+          <div class="content has-text-justified">
+            <p>
+              Comparsion with baseline methods on novel view synthesis.
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="static/images/novelview.png" alt="novel view"/>
+          </div>
+  
+          <br/>
+
+        <h3 class="title is-3">Real world experiments</h3> 
+  
+          <div class="content has-text-justified">
+            <p>
+              We demonstrate the effectiveness of our method on novel view synthesis for real-world transparent objects. With NEMTO, we can relight captured transparent objects with unseen environment maps.
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="static/images/nv.png" alt="novel view"/>
+          </div>
+  
+          <br/>
+
+        </div>
+        <!--/ Matting. -->
+      </div>
+    </div>
+
+ 
+  </div>
+</section>
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container"> -->
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+            <!-- Youtube embed code here -->
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/poster.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @InProceedings{wang2023nemto,
+          author={Wang, Dongqing and Zhang, Tong and S{\"u}sstrunk, Sabine},
+          title     = {{NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects}},
+          booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+          month     = {October},
+          year      = {2023}}
+           
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <h3> Acknowledgements</h3>
+          <p>This work was supported in part by the Swiss National Science Foundation via the Sinergia grant CRSII5-180359.
+          <br>
+          This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+          <br> 
+          This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
