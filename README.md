@@ -67,7 +67,7 @@ Similar to PhySG and IDR, our starting point is in the training folder.
 
 ## Acknowledgement
 
-This project is based on  of the code is based on [IDR](https://github.com/lioryariv/idr) and [PhySG](https://github.com/Kai-46/PhySG). We thank the authors for releasing their code.
+This project is based on [IDR](https://github.com/lioryariv/idr) and [PhySG](https://github.com/Kai-46/PhySG). We thank the authors for releasing their code.
 
 
 
